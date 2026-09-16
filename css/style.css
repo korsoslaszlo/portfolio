@@ -21,3 +21,21 @@ header {
 header h2, h3 {
     margin: 0;
 }
+
+header h3 {
+    font-weight: lighter;
+}
+
+.navigacio {
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.navigacio a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
