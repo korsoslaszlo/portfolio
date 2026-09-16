@@ -30,7 +30,7 @@ header h3 {
     background-color: #3a3a3a;
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 10px;
     margin-top: 20px;
 }
 
@@ -39,3 +39,35 @@ header h3 {
     text-decoration: none;
     font-size: 16px;
 }
+
+.bemutleir {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.bemutleir p {
+    float: left;
+    font-size: 110%;
+    padding-right: 20px;
+}
+
+.bemutleir img {
+    float: right;
+    height: 300px;
+    border: solid #3a3a3a;
+    border-radius: 28px;
+}
+
+.bemutatkozas h1 {
+    text-align: center;
+    color: #3a3a3a;
+    font-size:175%;
+}
+
+.bemutleir p {
+    text-align: justify;
+}   
