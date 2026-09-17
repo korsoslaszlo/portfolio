@@ -71,3 +71,26 @@ header h3 {
 .bemutleir p {
     text-align: justify;
 }   
+
+.grid-basic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+        padding: 10px;
+
+}
+
+.karty {
+    background: #3a3a3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.karty img {
+    max-width: 100px;
+}
