@@ -76,8 +76,7 @@ header h3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-        padding: 10px;
-
+    padding: 10px;
 }
 
 .karty {
@@ -93,4 +92,48 @@ header h3 {
 
 .karty img {
     max-width: 100px;
+}
+
+
+.keszsegek h2 {
+    text-align: center;
+    color: #3a3a3a;
+    font-size:175%;
+}
+
+
+.projektek h2 {
+    text-align: center;
+    color: #3a3a3a;
+    font-size:175%;
+}
+
+.projektek .grid-basic {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.projektek .karty {
+    
+    color: white;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.kartya-kiefer {
+    background-image: url(../img/projects/project_ping_pong.jpeg);
+}
+
+.kartya-damjan {
+    background-image: url(../img/projects/project_bakery.jpeg);
+}
+
+.kartya-calc {
+    background-image: url(../img/projects/project_calculator.jpeg);
 }
